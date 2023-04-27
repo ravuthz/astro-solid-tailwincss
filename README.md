@@ -1,4 +1,29 @@
-# Astro Starter Kit: Minimal
+# Astro SolidJS Tailwincss
+## Astro Starter Template build from Minimal Template
+
+To use this template just follow command below:
+```bash
+pnpm create astro@latest --template ravuthz/astro-solid-tailwincss
+```
+
+Prepare ENV
+```bash
+cp .env.example .env
+```
+
+Install Dependencies
+```bash
+pnpm install
+```
+
+Test on cloud IDE
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/ravuthz/astro-solid-tailwincss)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/ravuthz/astro-solid-tailwincss)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ravuthz/astro-solid-tailwincss?devcontainer_path=.devcontainer/astro-solid-tailwincss/devcontainer.json)
+
+
+## Astro Starter Kit: Minimal
 
 ```
 npm create astro@latest -- --template minimal
