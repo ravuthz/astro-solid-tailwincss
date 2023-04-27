@@ -1,4 +1,6 @@
 ---
+
+const { VITE_APP_TITLE } = import.meta.env;
 ---
 
 <html lang="en">
@@ -7,9 +9,12 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{VITE_APP_TITLE}</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="md:container md:mx-auto md:my-8">
+			<h1 class="text-2xl text-center">{VITE_APP_TITLE}</h1>
+			<p class="text-lg text-center">Welcome Astro Solid Tailwincss</p>
+		</div>
 	</body>
 </html>
